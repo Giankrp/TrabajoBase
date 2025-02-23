@@ -1,0 +1,120 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\ifPDFTeX
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Introducción al proyecto},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Introducción al proyecto}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\#Trabajobase\\
+El presente proyecto se desarrolla en el contexto del módulo de
+Administración de Bases de Datos (DAM). El objetivo es diseñar e
+implementar una base de datos en MySQL para gestionar información de
+manera eficiente. Después de analizar posibles escenarios, se decidió
+que el tema central de este proyecto será una base de datos para la
+gestión de inventarios.
+
+\section{Elección del tema: Base de datos para
+inventario}\label{elecciuxf3n-del-tema-base-de-datos-para-inventario}
+
+La elección de este tema surge a partir de la identificación de
+problemas comunes en el control de inventarios. Durante la evaluación
+inicial, se consideraron distintos tipos de bases de datos que podrían
+implementarse, como:
+
+\begin{itemize}
+\tightlist
+\item
+  Gestión de usuarios
+\item
+  Sistema de ventas
+\item
+  Gestión de inventario\\
+  Finalmente, se optó por desarrollar una base de datos para
+  \textbf{gestionar inventarios} debido a su relevancia en el ámbito
+  empresarial, su complejidad moderada (ideal para aprendizaje) y su
+  amplio uso en distintos sectores. Algunas de las razones que sustentan
+  esta elección son:
+\end{itemize}
+
+\begin{enumerate}
+\tightlist
+\item
+  \textbf{Relevancia Práctica:} La gestión de inventarios es crucial
+  para el funcionamiento de cualquier negocio, ya que permite un
+  seguimiento eficiente de los productos, optimización de recursos y
+  prevención de pérdidas.
+\item
+  \textbf{Cobertura de Funcionalidades:} Este tema involucra múltiples
+  aspectos de bases de datos, como la relación entre entidades,
+  consultas complejas y manejo de restricciones.
+\item
+  \textbf{Escalabilidad:} La base de datos podría extenderse en el
+  futuro para incluir funcionalidades como reportes avanzados o
+  integración con sistemas de ventas.
+\end{enumerate}
+
+Check
+
+Hecho
+
+\end{document}
