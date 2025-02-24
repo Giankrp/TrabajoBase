@@ -1,6 +1,6 @@
 ---
 created: 2025-02-09T19:17
-updated: 2025-02-23T18:50
+updated: 2025-02-24T01:02
 tags:
   - Trabajobase
 ---
@@ -21,6 +21,5 @@ Finalmente, se optó por desarrollar una base de datos para **gestionar inventar
 3. **Escalabilidad:** La base de datos podría extenderse en el futuro para incluir funcionalidades como reportes avanzados o integración con sistemas de ventas.
 
 
->[!check]
->Hecho
+>[!check] Hecho
 

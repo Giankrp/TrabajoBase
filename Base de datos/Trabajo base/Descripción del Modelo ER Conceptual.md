@@ -1,6 +1,6 @@
 ---
 created: 2025-02-15T20:25
-updated: 2025-02-23T23:50
+updated: 2025-02-24T01:00
 ---
 
 Este modelo representa la estructura de una base de datos diseñada para gestionar el inventario de productos informáticos. Incluye entidades principales, sus atributos y las relaciones entre ellas para controlar el flujo de entrada y salida de productos.
@@ -85,4 +85,4 @@ Este modelo representa la estructura de una base de datos diseñada para gestion
 
 Este modelo ER conceptual organiza eficientemente la información relacionada con el **gestor de inventario** de productos informáticos. Permite un control estructurado sobre los productos, proveedores y movimientos de stock, garantizando una gestión clara de las **entradas y salidas** de los productos en el sistema.
 
->[!Tip] Haciendo
+>[!Check] Hecho

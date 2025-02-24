@@ -1,7 +1,9 @@
 ---
 created: 2025-02-23T01:05
-updated: 2025-02-24T00:30
+updated: 2025-02-24T01:01
 ---
+>[!Tip] Haciendo
+
 
 ```SQL
 -- Crear la tabla de Productos

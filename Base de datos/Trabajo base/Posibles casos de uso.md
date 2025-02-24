@@ -1,6 +1,6 @@
 ---
 created: 2025-02-11T00:33
-updated: 2025-02-19T11:47
+updated: 2025-02-24T01:01
 tags:
   - Trabajobase
 ---
@@ -127,5 +127,4 @@ A continuación, se presentan los posibles casos de uso del sistema basado en la
 
 Este modelo de base de datos permite gestionar de manera eficiente el flujo de productos, garantizando el control de **entradas, salidas, proveedores y stock**. Además, proporciona herramientas para el análisis del inventario y facilita la toma de decisiones dentro de la empresa.
 
->[!Check]
->Hecho
+>[!Check] Hecho

@@ -1,8 +1,7 @@
 ---
 created: 2025-02-11T00:33
-updated: 2025-02-11T00:58
+updated: 2025-02-24T01:01
 tags:
   - Trabajobase
 ---
->[!Todo]
->Por hacer
+>[!check] Hecho

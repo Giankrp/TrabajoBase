@@ -1,11 +1,10 @@
 ---
 created: 2025-02-11T00:33
-updated: 2025-02-15T20:29
+updated: 2025-02-24T01:00
 tags:
   - Trabajobase
 ---
->[!Tip] 
->Hacienco
+>[!Check] Hecho
 
 
 Modelo conceptual
